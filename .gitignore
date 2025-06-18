@@ -1,19 +1,26 @@
-# Compiled class files
+# Build results and temporary files
+bin/
+obj/
+out/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~backup
 *.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.ear
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Maven
 target/
@@ -27,6 +34,11 @@ release.properties
 .gradle/
 build/
 
+# Visual Studio specific
+.vs/
+.vscode/
+*.sln.ide/
+
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -36,7 +48,6 @@ out/
 
 # NetBeans
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
@@ -53,9 +64,6 @@ local.properties
 bin/
 tmp/
 
-# Visual Studio Code
-.vscode/
-
 # macOS
 .DS_Store
 
@@ -67,17 +75,22 @@ Desktop.ini
 # Linux
 *~
 
-# Generated files
-*.class
-*.jar
-*.war
-*.ear
+# Package files
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
 
-# Temporary files
-*.swp
-*.swo
-*.bak
-*.tmp
+# File-based configurations
+appsettings.json
+appsettings.*.json
 
-# Other
-# Add any custom patterns specific to your project or team.
+# Generated code
+Generated/
+Generated_Code/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Temporary and auto-generated files
+*.ctxt
