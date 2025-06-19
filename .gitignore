@@ -1,96 +1,72 @@
-# Build results and temporary files
+# Build Folders
 bin/
 obj/
 out/
-*.tmp
-*.bak
-*.swp
-*.swo
-*.~backup
-*.class
-*.jar
-*.war
-*.ear
 
-# Logs
-*.log
+# VS Code files
+.vscode/
 
-# User-specific files
-*.rsuser
-*.suo
+# Visual Studio specific files
+.vs/
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-
-# Gradle
-.gradle/
-build/
-
-# Visual Studio specific
-.vs/
-.vscode/
-*.sln.ide/
-
-# IntelliJ IDEA
+# Rider specific files
 .idea/
-*.iml
-*.ipr
-*.iws
-out/
 
-# NetBeans
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+# ASP.NET files
+.env
+*.log
+*.nlog
+*.tlog
 
-# Eclipse
-.metadata/
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Azure specific files
+*.azure*
+
+# JetBrains Rider
+.idea/
+
+# Build output
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.mdf
+*.ldf
+*.ndb
+*.ndf
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/ and restoring packages folder
+!**/packages/build/
+!**/packages/repositories.config
+# Uncomment if necessary however generally it will be regenerated when needed
+#!*.nuspec
+#!*.nupkg
+
+# Temporary files
 *.tmp
+*.temp
+*.TMP
+*.TEMP
+
+# Others
 *.bak
 *.swp
-*~.nib
-local.properties
-.settings/
-bin/
-tmp/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Linux
 *~
-
-# Package files
-*.nupkg
-*.snupkg
-packages/
-!packages/build/
-
-# File-based configurations
-appsettings.json
-appsettings.*.json
-
-# Generated code
-Generated/
-Generated_Code/
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Temporary and auto-generated files
-*.ctxt
