@@ -8,16 +8,6 @@ Recursion is a programming technique where a function solves a problem by callin
 1. **Base Case**: The condition under which the recursion stops. Without this, the function would call itself indefinitely, leading to a stack overflow.
 2. **Recursive Case**: The part of the function that reduces the problem size, eventually reaching the base case.
 
-### Examples of Recursive Problems
-- **Factorial Calculation**: 
-  \[
-  n! = n \times (n - 1)!
-  \]
-- **Fibonacci Sequence**:
-  \[
-  F(n) = F(n-1) + F(n-2), \quad \text{with base cases } F(0) = 0 \text{ and } F(1) = 1
-  \]
-
 ### Challenges of Recursion
 1. **Performance**: Repeatedly solving the same subproblems can lead to inefficiency.
 2. **Memory Usage**: Each recursive call adds a frame to the call stack, which can result in stack overflow for large inputs.
