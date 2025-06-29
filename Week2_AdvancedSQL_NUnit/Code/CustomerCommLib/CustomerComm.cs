@@ -17,7 +17,7 @@ namespace CustomerCommLib
 
         public bool SendMailToCustomer()
         {
-            return _mailSender.SendMail("srinithimitra@gmail.com", "Hello from Srinithi");
+            return _mailSender.SendMail("srinithimitra@gmail.com", "Hello from Debojyoti");
         }
     }
 }
