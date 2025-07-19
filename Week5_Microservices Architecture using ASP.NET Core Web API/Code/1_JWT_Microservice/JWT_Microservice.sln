@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT_Microservice", "JWT_Microservice.csproj", "{041A4C4F-5B0D-4600-9578-D6D13B800AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041A4C4F-5B0D-4600-9578-D6D13B800AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A4C4F-5B0D-4600-9578-D6D13B800AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A4C4F-5B0D-4600-9578-D6D13B800AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A4C4F-5B0D-4600-9578-D6D13B800AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90BDC3FD-4F33-4EB7-AFC8-D3A8EEF2EC00}
+	EndGlobalSection
+EndGlobal
