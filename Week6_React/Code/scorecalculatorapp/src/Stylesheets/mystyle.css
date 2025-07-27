@@ -1,0 +1,32 @@
+.student-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.name {
+  color: blue;
+}
+
+.school {
+  color: crimson;
+}
+
+.total {
+  color: purple;
+}
+
+.score {
+  color: green;
+}

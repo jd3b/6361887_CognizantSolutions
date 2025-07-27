@@ -70,3 +70,29 @@ artifacts/
 *.bak
 *.swp
 *~
+
+# ✅ Node.js / React / Vite Additions
+
+# node_modules for npm/yarn
+node_modules/
+
+# Vite cache
+.vite/
+
+# Build output
+dist/
+
+# SystemJS and parcel cache
+.cache/
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite preview build
+*.preview.html
+
+# Mac system files
+.DS_Store
